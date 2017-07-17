@@ -153,7 +153,7 @@ class Imposter {
     const finalResponse = {};
     const response = {};
 
-    response.statuscode = statuscode;
+    response.statusCode = statuscode;
     response.headers = headers;
     response.body = body;
     /* A mountebank formatting thing where each response has a type (is, proxy, or inject) and this type must be specified in the form of a key where the value the actual response */
